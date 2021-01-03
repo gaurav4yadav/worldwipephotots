@@ -1,0 +1,102 @@
+
+
+header
+{
+    font-family:  "Helvetica Neue", "Lucida Grande", Arial;
+    padding:5x;
+    border-width: 5px;
+
+border-style: solid;
+border-color:black;
+
+background-color: black;
+opacity: 0.8;
+text-align:center;
+color:white
+
+}div.gallery {
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 180px;
+}
+
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+font-weight: bolder;
+background-color: black;
+color:white;
+opacity:0.6;
+}
+
+
+nav{
+    background-color:black;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 45px;
+    font-size: 25px;
+    font-stretch: ultra-expanded;
+
+    text-align: center;
+    font-size-adjust: inherit;
+    float: center;
+    color: white;
+    position: sticky;
+    
+}
+nav a:hover{
+    background-color:red;
+    padding:40px;
+    font-size:45;
+    font-weight: 200;
+    
+}
+
+body{
+    background-image: url("./photo/bullet.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    
+    text-decoration: none;
+    background-color: black;
+    opacity: 0.8;
+    padding: 10px;
+    text-align: center;
+    float: left,bottom;
+    color: white;
+
+
+}s
